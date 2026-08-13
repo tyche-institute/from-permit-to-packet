@@ -1,0 +1,41 @@
+{
+  "boundary": "Single-host descriptive microbenchmark; no cross-machine performance claim.",
+  "corpus_case_count": 43,
+  "environment": {
+    "cryptography": "49.0.0",
+    "platform": "Linux-6.8.0-137-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "iterations": 2000,
+  "measured_at": "2026-08-13T18:09:06Z",
+  "schema": "tyche-from-permit-to-packet-performance-v0.1",
+  "sizes": {
+    "clean_replay_bundle_bytes": 11341,
+    "prospective_capture_json_bytes": 80469,
+    "prospective_capture_json_file_count": 17,
+    "signed_prospective_closure_bytes": 10309
+  },
+  "timing_method": "perf_counter_ns; each sample is one full corpus pass divided by case count",
+  "verifiers": {
+    "composed_offline": {
+      "median_microseconds_per_bundle": 208.974,
+      "p95_microseconds_per_bundle": 219.822
+    },
+    "composed_witnessed": {
+      "median_microseconds_per_bundle": 273.444,
+      "p95_microseconds_per_bundle": 362.659
+    },
+    "hash_only": {
+      "median_microseconds_per_bundle": 51.592,
+      "p95_microseconds_per_bundle": 54.16
+    },
+    "native_only": {
+      "median_microseconds_per_bundle": 0.957,
+      "p95_microseconds_per_bundle": 1.008
+    },
+    "permit_only": {
+      "median_microseconds_per_bundle": 85.596,
+      "p95_microseconds_per_bundle": 87.779
+    }
+  }
+}

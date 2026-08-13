@@ -1,0 +1,37 @@
+{
+  "alg": "Ed25519",
+  "identity_boundary": "Possession of a local experiment key; not independent proof of human identity, legal authority, or a SCITT/RATS profile.",
+  "key_role": "tyche-prospective-pilot-experiment-key",
+  "payload": {
+    "allowed_execution_hosts": [
+      "zeus1"
+    ],
+    "allowed_probe_ids": [
+      28,
+      81,
+      6349,
+      6569
+    ],
+    "allowed_targets": [
+      "tyche.institute"
+    ],
+    "authority_basis": "interactive user instruction recorded in the research session",
+    "auto_topup": false,
+    "definition_count": 8,
+    "exact_api_request_sha256": "ae3c95459fba6e8a3fb1120aeecf47529a214aaa0bfacceb45ee0a7d051c91ad",
+    "expires_at": "2026-08-13T23:44:30Z",
+    "issued_at": "2026-08-13T17:44:30Z",
+    "issuer_role": "Tyche research operator",
+    "maximum_credits": 1060,
+    "oneoff": true,
+    "permit_id": "tyche-fptp-2026-08-13-p01",
+    "platform": "RIPE Atlas",
+    "public": true,
+    "required_claim_class": "bounded_observation",
+    "schema": "tyche-prospective-measurement-permit-v0.1",
+    "subject": "athena-research-agent"
+  },
+  "public_key_b64": "RjHmEw3F7Qm8bhHGbWD/If+4czSuRwZs8BzdBKQVLfI=",
+  "public_key_sha256": "50fe3f0f5d4ce272d06d37ecb5da0b8ee056aacfb4ab26c93bd068dfd4e4ee8a",
+  "signature_b64": "h473bzU9q8QVqVoFmI1XJPwWtUQfavMv4qmksJe8mTxWg6XR9RMgjmCgUh3M2kYHSjtiAHbB+yY6Jwf/lxr2Bw=="
+}

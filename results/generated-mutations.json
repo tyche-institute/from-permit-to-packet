@@ -1,0 +1,63 @@
+{
+  "boundary": "Deterministic generated variations of seven authored operators; this expands input coverage but is not a population sample or independent adversarial evaluation.",
+  "correctly_localised_count": 448,
+  "detected_count": 448,
+  "failures": [],
+  "families": [
+    {
+      "correctly_localised_count": 64,
+      "detected_count": 64,
+      "expected_first_bad_edge": "mandate_to_action",
+      "family": "target_substitution",
+      "generated_count": 64
+    },
+    {
+      "correctly_localised_count": 64,
+      "detected_count": 64,
+      "expected_first_bad_edge": "mandate_to_action",
+      "family": "probe_budget_escalation",
+      "generated_count": 64
+    },
+    {
+      "correctly_localised_count": 64,
+      "detected_count": 64,
+      "expected_first_bad_edge": "mandate_to_action",
+      "family": "duration_escalation",
+      "generated_count": 64
+    },
+    {
+      "correctly_localised_count": 64,
+      "detected_count": 64,
+      "expected_first_bad_edge": "mandate_to_action",
+      "family": "execution_host_escape",
+      "generated_count": 64
+    },
+    {
+      "correctly_localised_count": 64,
+      "detected_count": 64,
+      "expected_first_bad_edge": "action_to_effect",
+      "family": "platform_effect_substitution",
+      "generated_count": 64
+    },
+    {
+      "correctly_localised_count": 64,
+      "detected_count": 64,
+      "expected_first_bad_edge": "effect_to_evidence",
+      "family": "evidence_summary_cherry_pick",
+      "generated_count": 64
+    },
+    {
+      "correctly_localised_count": 64,
+      "detected_count": 64,
+      "expected_first_bad_edge": "evidence_to_claim",
+      "family": "claim_overreach",
+      "generated_count": 64
+    }
+  ],
+  "family_count": 7,
+  "generated_at": "2026-08-13T18:06:55Z",
+  "generated_fault_count": 448,
+  "per_family": 64,
+  "schema": "tyche-from-permit-to-packet-generated-mutations-v0.1",
+  "seed": 20260813
+}

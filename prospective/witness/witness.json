@@ -1,0 +1,28 @@
+{
+  "alg": "Ed25519",
+  "independence_boundary": "Separate Chrome-CDP collection code path and signing key, but the same zeus1 host, Tyche administration, network, and RIPE upstream; not Byzantine or organisational independence.",
+  "key_role": "tyche-browser-replay-witness",
+  "payload": {
+    "agrees_with_collector": true,
+    "execution_host": "zeus1",
+    "measurement_ids": [
+      200503603,
+      200503604,
+      200503606,
+      200503607,
+      200503608,
+      200503609,
+      200503610,
+      200503611
+    ],
+    "narrow_success_count": 32,
+    "observation_sha256": "b69d358228e064179732e11755d29907c84a0a53b7a7b622c8ffdabd66725de2",
+    "observed_at": "2026-08-13T17:52:21.379Z",
+    "result_count": 32,
+    "schema": "tyche-browser-replay-witness-v0.1",
+    "source_semantics_sha256": "55399707525fe411f12420998ecc69f8b2fd21659ed7a0904a46a84b6ae639bd"
+  },
+  "public_key_b64": "++AuYh+mXmBEdbD7Y7IcB9uKG9kfIUksdZjI0G3Y0pk=",
+  "public_key_sha256": "41d917cfa90bd718a338db4a2cbe9dd032dd77a0f582c7b202d34e9cfe8f679d",
+  "signature_b64": "YZZkVVloTucaQphFQauwL1C2h1MWjtEKqSVEPF9MQbjmtBN8NSbXD5Ha3U4QoPwYbeiYMfJFEz9Zm4E4JgR9AQ=="
+}

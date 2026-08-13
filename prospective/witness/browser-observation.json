@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {"af": 4, "measurement_id": 200503603, "narrow_success_count": 4, "result_count": 4, "returned_probe_ids": [28, 81, 6349, 6569], "type": "ping"},
+    {"af": 6, "measurement_id": 200503604, "narrow_success_count": 4, "result_count": 4, "returned_probe_ids": [28, 81, 6349, 6569], "type": "ping"},
+    {"af": 4, "measurement_id": 200503606, "narrow_success_count": 4, "result_count": 4, "returned_probe_ids": [28, 81, 6349, 6569], "type": "traceroute"},
+    {"af": 6, "measurement_id": 200503607, "narrow_success_count": 4, "result_count": 4, "returned_probe_ids": [28, 81, 6349, 6569], "type": "traceroute"},
+    {"af": 4, "measurement_id": 200503608, "narrow_success_count": 4, "result_count": 4, "returned_probe_ids": [28, 81, 6349, 6569], "type": "dns"},
+    {"af": 6, "measurement_id": 200503609, "narrow_success_count": 4, "result_count": 4, "returned_probe_ids": [28, 81, 6349, 6569], "type": "dns"},
+    {"af": 4, "measurement_id": 200503610, "narrow_success_count": 4, "result_count": 4, "returned_probe_ids": [28, 81, 6349, 6569], "type": "sslcert"},
+    {"af": 6, "measurement_id": 200503611, "narrow_success_count": 4, "result_count": 4, "returned_probe_ids": [28, 81, 6349, 6569], "type": "sslcert"}
+  ],
+  "execution_host": "zeus1",
+  "observed_at": "2026-08-13T17:52:21.379Z",
+  "schema": "tyche-browser-replay-observation-v0.1",
+  "transport": "Chrome CDP browser fetch using a code path separate from the Python collector"
+}

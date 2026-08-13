@@ -1,0 +1,307 @@
+{
+  "alg": "Ed25519",
+  "key_role": "tyche-prospective-pilot-collector",
+  "payload": {
+    "captured_at": "2026-08-13T17:51:50Z",
+    "claim": {
+      "all_definitions_complete_for_scheduled_sources": true,
+      "boundaries": [
+        "one one-off observation, not global or long-term availability",
+        "narrow protocol success, not general security",
+        "Atlas participation, not RIPE NCC membership or LIR status",
+        "Tyche collector signature, not a RIPE signature"
+      ],
+      "credits_observed_from_result_count": 848,
+      "definition_count": 8,
+      "kind": "bounded_observation",
+      "narrow_success_count": 32,
+      "requested_probe_count": 4,
+      "result_count": 32,
+      "scheduled_probe_ids": [
+        28,
+        81,
+        6349,
+        6569
+      ],
+      "target": "tyche.institute"
+    },
+    "creation_response_sha256": "7b9507f082e74df50fad7ff8235c09989ac143b974732d61944948af81f3b92d",
+    "exact_api_request_sha256": "ae3c95459fba6e8a3fb1120aeecf47529a214aaa0bfacceb45ee0a7d051c91ad",
+    "execution_host": "zeus1",
+    "measurement_ids": [
+      200503603,
+      200503604,
+      200503606,
+      200503607,
+      200503608,
+      200503609,
+      200503610,
+      200503611
+    ],
+    "permit_id": "tyche-fptp-2026-08-13-p01",
+    "permit_sha256": "84803ad7a7f7a35355a06321904ddcdf347d58240feb92b03886e9cb95087ba9",
+    "schema": "tyche-from-permit-to-packet-prospective-closure-v0.1",
+    "source_index": [
+      {
+        "af": 4,
+        "complete_scheduled_source_coverage": true,
+        "credits_observed": 24,
+        "measurement_id": 200503603,
+        "measurement_url": "https://atlas.ripe.net/measurements/200503603/",
+        "metadata_sha256": "5c2f425a53b7099af76bd82395f6090cd4d053c2f45ad30c22d77530addfceb4",
+        "narrow_success_count": 4,
+        "result_count": 4,
+        "results_api": "https://atlas.ripe.net/api/v2/measurements/200503603/results/",
+        "results_sha256": "7ad5b6cb9e86e1db85720fc4faea97d01539568dc13dac02837b73771a6435e9",
+        "returned_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "scheduled_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "status": "Ongoing",
+        "type": "ping"
+      },
+      {
+        "af": 6,
+        "complete_scheduled_source_coverage": true,
+        "credits_observed": 24,
+        "measurement_id": 200503604,
+        "measurement_url": "https://atlas.ripe.net/measurements/200503604/",
+        "metadata_sha256": "513a900fe74f32b43a6edf043d06f4525f2f389e07fc831bed68b07b92cf9ec0",
+        "narrow_success_count": 4,
+        "result_count": 4,
+        "results_api": "https://atlas.ripe.net/api/v2/measurements/200503604/results/",
+        "results_sha256": "450ab633066cc335015f90884883c078c8787102f18c81134c07b7e736adfb75",
+        "returned_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "scheduled_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "status": "Ongoing",
+        "type": "ping"
+      },
+      {
+        "af": 4,
+        "complete_scheduled_source_coverage": true,
+        "credits_observed": 240,
+        "measurement_id": 200503606,
+        "measurement_url": "https://atlas.ripe.net/measurements/200503606/",
+        "metadata_sha256": "930a71f495b543faf3c330fa3746e4a17d2c92d0d00a169fd8a88f4a1e1c4f86",
+        "narrow_success_count": 4,
+        "result_count": 4,
+        "results_api": "https://atlas.ripe.net/api/v2/measurements/200503606/results/",
+        "results_sha256": "47be1a553957ec2de12f7b909b9f1f7c821856b6a0fcb85f7d09333ff01e6373",
+        "returned_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "scheduled_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "status": "Ongoing",
+        "type": "traceroute"
+      },
+      {
+        "af": 6,
+        "complete_scheduled_source_coverage": true,
+        "credits_observed": 240,
+        "measurement_id": 200503607,
+        "measurement_url": "https://atlas.ripe.net/measurements/200503607/",
+        "metadata_sha256": "84ddfa279d70bcf32d73c45b5206532bf73b1fee56b70fcadd1423dbef1bcad6",
+        "narrow_success_count": 4,
+        "result_count": 4,
+        "results_api": "https://atlas.ripe.net/api/v2/measurements/200503607/results/",
+        "results_sha256": "e8bb031b9930043035a08a21b8af92a56cb631e00615ad58e6e930e7f432af66",
+        "returned_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "scheduled_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "status": "Ongoing",
+        "type": "traceroute"
+      },
+      {
+        "af": 4,
+        "complete_scheduled_source_coverage": true,
+        "credits_observed": 80,
+        "measurement_id": 200503608,
+        "measurement_url": "https://atlas.ripe.net/measurements/200503608/",
+        "metadata_sha256": "53b4b9af5b6076f6596105fe61682953b4278640f7f72fe1f2ff75a110a271cd",
+        "narrow_success_count": 4,
+        "result_count": 4,
+        "results_api": "https://atlas.ripe.net/api/v2/measurements/200503608/results/",
+        "results_sha256": "75ac1f470695fe81eb1df19b2de1eff59c6a82cfc4be600206f9d3555702e1d7",
+        "returned_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "scheduled_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "status": "Ongoing",
+        "type": "dns"
+      },
+      {
+        "af": 6,
+        "complete_scheduled_source_coverage": true,
+        "credits_observed": 80,
+        "measurement_id": 200503609,
+        "measurement_url": "https://atlas.ripe.net/measurements/200503609/",
+        "metadata_sha256": "f2cd3ddafb9e064cd3fc5a868495aed9ef7d5e6c17fbc5ded08cf9773a5a9bb9",
+        "narrow_success_count": 4,
+        "result_count": 4,
+        "results_api": "https://atlas.ripe.net/api/v2/measurements/200503609/results/",
+        "results_sha256": "9da2b721deb674fda09ef2ce91d8f225f0c8f071224ba0dadb847f25255478d9",
+        "returned_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "scheduled_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "status": "Ongoing",
+        "type": "dns"
+      },
+      {
+        "af": 4,
+        "complete_scheduled_source_coverage": true,
+        "credits_observed": 80,
+        "measurement_id": 200503610,
+        "measurement_url": "https://atlas.ripe.net/measurements/200503610/",
+        "metadata_sha256": "dd686569226e88618eb9405b18fdae16560f58d35ca8356c3d73871912beddf7",
+        "narrow_success_count": 4,
+        "result_count": 4,
+        "results_api": "https://atlas.ripe.net/api/v2/measurements/200503610/results/",
+        "results_sha256": "3be795eec37db099ab289156c925673c7576c31f81e57812c420f0971ba4717e",
+        "returned_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "scheduled_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "status": "Ongoing",
+        "type": "sslcert"
+      },
+      {
+        "af": 6,
+        "complete_scheduled_source_coverage": true,
+        "credits_observed": 80,
+        "measurement_id": 200503611,
+        "measurement_url": "https://atlas.ripe.net/measurements/200503611/",
+        "metadata_sha256": "9c59f7961f47af9902da50ab2b825aa2e797ec0ecd91ef950bdddd74e79071c3",
+        "narrow_success_count": 4,
+        "result_count": 4,
+        "results_api": "https://atlas.ripe.net/api/v2/measurements/200503611/results/",
+        "results_sha256": "7fce3ced1e58e37498bab0c76dace9afcc4a7d789ac521d904089cd18bc87650",
+        "returned_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "scheduled_probe_ids": [
+          28,
+          81,
+          6349,
+          6569
+        ],
+        "status": "Ongoing",
+        "type": "sslcert"
+      }
+    ],
+    "state": "CAPTURED_VERIFIED",
+    "verifier": {
+      "first_bad_edge": null,
+      "verdict": "ALLOW",
+      "verified_gates": [
+        "permit_signature",
+        "exact_request_digest",
+        "execution_host",
+        "credit_ceiling",
+        "platform_id_shape",
+        "definition_binding",
+        "target_binding",
+        "source_subset",
+        "result_source_binding",
+        "observed_credit_ceiling",
+        "complete_source_coverage",
+        "bounded_claim_class",
+        "browser_witness_agreement"
+      ]
+    },
+    "witness": {
+      "alg": "Ed25519",
+      "independence_boundary": "Separate Chrome-CDP collection code path and signing key, but the same zeus1 host, Tyche administration, network, and RIPE upstream; not Byzantine or organisational independence.",
+      "key_role": "tyche-browser-replay-witness",
+      "payload": {
+        "agrees_with_collector": true,
+        "execution_host": "zeus1",
+        "measurement_ids": [
+          200503603,
+          200503604,
+          200503606,
+          200503607,
+          200503608,
+          200503609,
+          200503610,
+          200503611
+        ],
+        "narrow_success_count": 32,
+        "observation_sha256": "b69d358228e064179732e11755d29907c84a0a53b7a7b622c8ffdabd66725de2",
+        "observed_at": "2026-08-13T17:52:21.379Z",
+        "result_count": 32,
+        "schema": "tyche-browser-replay-witness-v0.1",
+        "source_semantics_sha256": "55399707525fe411f12420998ecc69f8b2fd21659ed7a0904a46a84b6ae639bd"
+      },
+      "public_key_b64": "++AuYh+mXmBEdbD7Y7IcB9uKG9kfIUksdZjI0G3Y0pk=",
+      "public_key_sha256": "41d917cfa90bd718a338db4a2cbe9dd032dd77a0f582c7b202d34e9cfe8f679d",
+      "signature_b64": "YZZkVVloTucaQphFQauwL1C2h1MWjtEKqSVEPF9MQbjmtBN8NSbXD5Ha3U4QoPwYbeiYMfJFEz9Zm4E4JgR9AQ=="
+    }
+  },
+  "public_key_b64": "ikv4ylYlmbf2g/9MOnPOrcAnphadydiJ5T4ICv5yLoo=",
+  "public_key_sha256": "66f242fab68a1a71816d082b0deccda90b9f1edc87b7b82d2a66d10bc4ccd3dd",
+  "signature_b64": "Ajl/5kI5nKbRl5KwZZ401CjZH4n2KzG/AYarO4UgSNf4ZPOcKcPHM6p2JkXk8zta74PrOtlEVOOnKbjk9ieVDg==",
+  "trust_boundary": "Tyche collector statement over TLS-fetched RIPE public API rows; not a RIPE signature."
+}

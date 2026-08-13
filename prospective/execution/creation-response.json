@@ -1,0 +1,18 @@
+{
+  "authenticated_transport": "Chrome CDP attached to the user's existing RIPE Atlas session on zeus1",
+  "balance_before": 391423,
+  "http_status": 201,
+  "measurements": [
+    200503603,
+    200503604,
+    200503606,
+    200503607,
+    200503608,
+    200503609,
+    200503610,
+    200503611
+  ],
+  "request_sha256": "ae3c95459fba6e8a3fb1120aeecf47529a214aaa0bfacceb45ee0a7d051c91ad",
+  "submitted_at": "2026-08-13T17:50:05.719Z",
+  "transport_header_note": "X-Requested-With: XMLHttpRequest was required for RIPE session authentication; it did not alter the JSON body or its digest."
+}

@@ -1,0 +1,80 @@
+{
+  "captured_at": "2026-08-13T17:51:50Z",
+  "files": {
+    "measurements/200503603.json": {
+      "bytes": 1293,
+      "sha256": "5c2f425a53b7099af76bd82395f6090cd4d053c2f45ad30c22d77530addfceb4"
+    },
+    "measurements/200503604.json": {
+      "bytes": 1305,
+      "sha256": "513a900fe74f32b43a6edf043d06f4525f2f389e07fc831bed68b07b92cf9ec0"
+    },
+    "measurements/200503606.json": {
+      "bytes": 1493,
+      "sha256": "930a71f495b543faf3c330fa3746e4a17d2c92d0d00a169fd8a88f4a1e1c4f86"
+    },
+    "measurements/200503607.json": {
+      "bytes": 1499,
+      "sha256": "84ddfa279d70bcf32d73c45b5206532bf73b1fee56b70fcadd1423dbef1bcad6"
+    },
+    "measurements/200503608.json": {
+      "bytes": 1595,
+      "sha256": "53b4b9af5b6076f6596105fe61682953b4278640f7f72fe1f2ff75a110a271cd"
+    },
+    "measurements/200503609.json": {
+      "bytes": 1601,
+      "sha256": "f2cd3ddafb9e064cd3fc5a868495aed9ef7d5e6c17fbc5ded08cf9773a5a9bb9"
+    },
+    "measurements/200503610.json": {
+      "bytes": 1267,
+      "sha256": "dd686569226e88618eb9405b18fdae16560f58d35ca8356c3d73871912beddf7"
+    },
+    "measurements/200503611.json": {
+      "bytes": 1279,
+      "sha256": "9c59f7961f47af9902da50ab2b825aa2e797ec0ecd91ef950bdddd74e79071c3"
+    },
+    "results/200503603.json": {
+      "bytes": 1911,
+      "sha256": "7ad5b6cb9e86e1db85720fc4faea97d01539568dc13dac02837b73771a6435e9"
+    },
+    "results/200503604.json": {
+      "bytes": 2062,
+      "sha256": "450ab633066cc335015f90884883c078c8787102f18c81134c07b7e736adfb75"
+    },
+    "results/200503606.json": {
+      "bytes": 8466,
+      "sha256": "47be1a553957ec2de12f7b909b9f1f7c821856b6a0fcb85f7d09333ff01e6373"
+    },
+    "results/200503607.json": {
+      "bytes": 7032,
+      "sha256": "e8bb031b9930043035a08a21b8af92a56cb631e00615ad58e6e930e7f432af66"
+    },
+    "results/200503608.json": {
+      "bytes": 3420,
+      "sha256": "75ac1f470695fe81eb1df19b2de1eff59c6a82cfc4be600206f9d3555702e1d7"
+    },
+    "results/200503609.json": {
+      "bytes": 3674,
+      "sha256": "9da2b721deb674fda09ef2ce91d8f225f0c8f071224ba0dadb847f25255478d9"
+    },
+    "results/200503610.json": {
+      "bytes": 19910,
+      "sha256": "3be795eec37db099ab289156c925673c7576c31f81e57812c420f0971ba4717e"
+    },
+    "results/200503611.json": {
+      "bytes": 20059,
+      "sha256": "7fce3ced1e58e37498bab0c76dace9afcc4a7d789ac521d904089cd18bc87650"
+    }
+  },
+  "measurement_ids": [
+    200503603,
+    200503604,
+    200503606,
+    200503607,
+    200503608,
+    200503609,
+    200503610,
+    200503611
+  ],
+  "schema": "tyche-from-permit-to-packet-capture-manifest-v0.1"
+}

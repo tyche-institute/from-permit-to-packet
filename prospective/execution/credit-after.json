@@ -1,0 +1,10 @@
+{
+  "calculation_time": "2026-08-13T17:52:59.607754",
+  "current_balance": 391423,
+  "estimated_daily_balance": 19099,
+  "estimated_runout_seconds": null,
+  "interpretation": "The past-day counter increased by 899 credits between the pre-action and post-capture receipts. The prospective rows account for 848 credits from RIPE's per-result metadata; the separate ongoing campaign continued spending during the interval, so the account-level delta is not attributed wholly to this pilot.",
+  "past_day_credits_spent": 7863,
+  "past_day_measurement_results": 1429,
+  "source": "authenticated RIPE Atlas /api/v2/credits/ fetched through Chrome CDP on zeus1"
+}

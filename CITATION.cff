@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or artifact, please cite it as below."
+title: "From Permit to Packet: Composing Agent Authority with Public Internet Measurement Evidence"
+type: software
+version: 0.1.0
+date-released: 2026-08-13
+authors:
+  - family-names: Sokolov
+    given-names: Anton
+    orcid: "https://orcid.org/0000-0003-2452-7096"
+    affiliation: "Tyche Institute"
+repository-code: "https://github.com/tyche-institute/from-permit-to-packet"
+url: "https://tyche.institute/lab/from-permit-to-packet/"
+license: Apache-2.0
+keywords:
+  - AI agents
+  - authorization
+  - evidence composition
+  - RIPE Atlas
+  - SCITT
+  - RATS
+abstract: >-
+  Executable research artifact for composing a signed AI-agent Permit, an
+  exact RIPE Atlas request, platform-assigned effects, captured evidence, and a
+  bounded claim with ordered first-bad-edge verification.
+preferred-citation:
+  type: article
+  title: "From Permit to Packet: Composing Agent Authority with Public Internet Measurement Evidence"
+  authors:
+    - family-names: Sokolov
+      given-names: Anton
+      orcid: "https://orcid.org/0000-0003-2452-7096"
+  year: 2026
+  publisher:
+    name: "Tyche Institute"

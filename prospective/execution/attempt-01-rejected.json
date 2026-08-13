@@ -1,0 +1,14 @@
+{
+  "attempted_at": "2026-08-13T17:49:52.480Z",
+  "body_submitted": false,
+  "error": {
+    "code": 104,
+    "detail": "API requests using session authentication require the X-Requested-With header",
+    "status": 403,
+    "title": "Forbidden"
+  },
+  "http_status": 403,
+  "measurement_ids": [],
+  "note": "The session-authentication precondition rejected the request before any measurement was created; the exact request body was unchanged for the successful retry.",
+  "request_sha256": "ae3c95459fba6e8a3fb1120aeecf47529a214aaa0bfacceb45ee0a7d051c91ad"
+}

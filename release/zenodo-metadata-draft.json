@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Tyche Institute, Tallinn, Estonia",
+        "name": "Sokolov, Anton",
+        "orcid": "0000-0003-2452-7096"
+      }
+    ],
+    "description": "Executable research artifact for composing an AI-agent Permit, an exact RIPE Atlas request, platform-assigned measurement effects, captured evidence, a bounded claim, and ordered first-bad-edge verification. The v0.1 corpus contains 21 matched positive/negative pairs plus one unpaired clean baseline, a 448-variation deterministic mutation sweep, and one prospective eight-measurement trace. Local signed JSON is a research profile, not a SCITT or RATS conformance claim.",
+    "keywords": [
+      "AI agents",
+      "authorization",
+      "evidence composition",
+      "first bad edge",
+      "RIPE Atlas",
+      "SCITT",
+      "RATS",
+      "reproducible research"
+    ],
+    "license": "cc-by-4.0",
+    "notes": "Code is Apache-2.0; manuscript, documentation, and public data are CC BY 4.0. The release excludes secret keys and raw address-bearing RIPE rows.",
+    "publication_date": "2026-08-13",
+    "related_identifiers": [
+      {
+        "identifier": "https://tyche.institute/lab/from-permit-to-packet/",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-other",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://github.com/tyche-institute/from-permit-to-packet",
+        "relation": "isIdenticalTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "title": "From Permit to Packet: Composing Agent Authority with Public Internet Measurement Evidence",
+    "upload_type": "software",
+    "version": "0.1.0"
+  }
+}

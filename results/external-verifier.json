@@ -1,0 +1,24 @@
+{
+  "checked_out_artifacts": {
+    "narrow_success_count": 32,
+    "observed_credits": 848,
+    "result_count": 32,
+    "verdict": "PASS",
+    "verified_gate_count": 56
+  },
+  "completed_at": "2026-08-13T18:11:42Z",
+  "execution_boundary": "GitHub-hosted runner separate from zeus1, but under the same Tyche repository administration and not an independent auditor",
+  "head_sha": "11f76b97a29fd11ae56f2d8b9b9082ef1e6d37da",
+  "production_artifacts": {
+    "narrow_success_count": 32,
+    "observed_credits": 848,
+    "result_count": 32,
+    "verdict": "PASS",
+    "verified_gate_count": 56
+  },
+  "request_sha256": "ae3c95459fba6e8a3fb1120aeecf47529a214aaa0bfacceb45ee0a7d051c91ad",
+  "run_id": 31729489880,
+  "run_url": "https://github.com/tyche-institute/tyche-institute-site/actions/runs/31729489880",
+  "schema": "tyche-permit-to-packet-external-verifier-result-v0.1",
+  "state": "PASS"
+}

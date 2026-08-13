@@ -1,0 +1,380 @@
+{
+  "action": {
+    "definitions": [
+      {
+        "af": 4,
+        "auto_topup": false,
+        "interval": 900,
+        "target": "tyche.institute",
+        "type": "ping"
+      },
+      {
+        "af": 6,
+        "auto_topup": false,
+        "interval": 900,
+        "target": "tyche.institute",
+        "type": "ping"
+      },
+      {
+        "af": 4,
+        "auto_topup": false,
+        "interval": 21600,
+        "target": "tyche.institute",
+        "type": "traceroute"
+      },
+      {
+        "af": 6,
+        "auto_topup": false,
+        "interval": 21600,
+        "target": "tyche.institute",
+        "type": "traceroute"
+      },
+      {
+        "af": 4,
+        "auto_topup": false,
+        "interval": 21600,
+        "query_argument": "tyche.institute",
+        "type": "dns"
+      },
+      {
+        "af": 6,
+        "auto_topup": false,
+        "interval": 21600,
+        "query_argument": "tyche.institute",
+        "type": "dns"
+      },
+      {
+        "af": 4,
+        "auto_topup": false,
+        "interval": 21600,
+        "target": "tyche.institute",
+        "type": "sslcert"
+      },
+      {
+        "af": 6,
+        "auto_topup": false,
+        "interval": 21600,
+        "target": "tyche.institute",
+        "type": "sslcert"
+      }
+    ],
+    "estimated_daily_credits": 19520,
+    "estimated_total_credits": 585600,
+    "execution_host": "unauthorised-host",
+    "note": "Privacy-minimised semantic replay derived from the live campaign; not the exact private API wire body.",
+    "platform": "RIPE Atlas",
+    "privacy_profile": "public-aggregate-no-address-or-geometry-v1",
+    "probes": [
+      {
+        "requested": 4,
+        "type": "region",
+        "value": "afrinic"
+      },
+      {
+        "requested": 4,
+        "type": "region",
+        "value": "apnic"
+      },
+      {
+        "requested": 4,
+        "type": "region",
+        "value": "arin"
+      },
+      {
+        "requested": 4,
+        "type": "region",
+        "value": "lacnic"
+      },
+      {
+        "requested": 4,
+        "type": "region",
+        "value": "ripencc"
+      }
+    ],
+    "schema": "tyche-atlas-semantic-action-v0.1",
+    "start_time": 1786616700,
+    "stop_time": 1789208700
+  },
+  "appraisal_time": "2026-08-13T18:00:00Z",
+  "case_id": "D06_wrong_execution_host",
+  "claim": {
+    "assertions": [
+      "result-flow",
+      "source-presence-in-window"
+    ],
+    "boundary_ids": [
+      "observation-not-global-availability",
+      "integrity-not-truth",
+      "atlas-participation-not-membership"
+    ],
+    "facts": {
+      "all_definitions_saw_all_sources": true,
+      "current_connected_sources": 19,
+      "narrow_success_count": 278,
+      "result_count": 279,
+      "scheduled_source_count": 20
+    },
+    "kind": "bounded_observation",
+    "schema": "tyche-bounded-network-claim-v0.1"
+  },
+  "effect": {
+    "current_connected_sources": 19,
+    "measurements": [
+      {
+        "af": 4,
+        "auto_topup": false,
+        "id": 200375573,
+        "interval": 900,
+        "participant_count": 20,
+        "public": true,
+        "status": "Ongoing",
+        "target": "tyche.institute",
+        "type": "ping"
+      },
+      {
+        "af": 6,
+        "auto_topup": false,
+        "id": 200375574,
+        "interval": 900,
+        "participant_count": 20,
+        "public": true,
+        "status": "Ongoing",
+        "target": "tyche.institute",
+        "type": "ping"
+      },
+      {
+        "af": 4,
+        "auto_topup": false,
+        "id": 200375575,
+        "interval": 21600,
+        "participant_count": 20,
+        "public": true,
+        "status": "Ongoing",
+        "target": "tyche.institute",
+        "type": "traceroute"
+      },
+      {
+        "af": 6,
+        "auto_topup": false,
+        "id": 200375577,
+        "interval": 21600,
+        "participant_count": 20,
+        "public": true,
+        "status": "Ongoing",
+        "target": "tyche.institute",
+        "type": "traceroute"
+      },
+      {
+        "af": 4,
+        "auto_topup": false,
+        "id": 200375578,
+        "interval": 21600,
+        "participant_count": 20,
+        "public": true,
+        "query_argument": "tyche.institute",
+        "status": "Ongoing",
+        "type": "dns"
+      },
+      {
+        "af": 6,
+        "auto_topup": false,
+        "id": 200375579,
+        "interval": 21600,
+        "participant_count": 20,
+        "public": true,
+        "query_argument": "tyche.institute",
+        "status": "Ongoing",
+        "type": "dns"
+      },
+      {
+        "af": 4,
+        "auto_topup": false,
+        "id": 200375581,
+        "interval": 21600,
+        "participant_count": 20,
+        "public": true,
+        "status": "Ongoing",
+        "target": "tyche.institute",
+        "type": "sslcert"
+      },
+      {
+        "af": 6,
+        "auto_topup": false,
+        "id": 200375582,
+        "interval": 21600,
+        "participant_count": 20,
+        "public": true,
+        "status": "Ongoing",
+        "target": "tyche.institute",
+        "type": "sslcert"
+      }
+    ],
+    "platform": "RIPE Atlas",
+    "scheduled_probe_count": 20,
+    "schema": "tyche-atlas-platform-effect-v0.1",
+    "semantic_action_digest": "f75f7c9e31bd3d375ccded70af26a1aa64180fe6bca633292bef4bff930218cb",
+    "start_time": 1786616700,
+    "status": "running",
+    "stop_time": 1789208700,
+    "upstream_authentication_boundary": "Public API over TLS; RIPE does not sign these fixture rows."
+  },
+  "evidence": {
+    "collector_capture": {
+      "alg": "Ed25519",
+      "key_role": "collector",
+      "payload": {
+        "captured_at": "2026-08-13T17:26:00Z",
+        "schema": "tyche-atlas-capture-statement-v0.1",
+        "source_index": [
+          {
+            "af": 4,
+            "measurement_id": 200375573,
+            "narrow_success_count": 79,
+            "raw_window_sha256": "f6452896ab334115d252de5ed0766b2228ee089e129b1e2855492d39bbf7ab7d",
+            "result_count": 80,
+            "seen_probe_count": 20,
+            "type": "ping"
+          },
+          {
+            "af": 6,
+            "measurement_id": 200375574,
+            "narrow_success_count": 79,
+            "raw_window_sha256": "491e2e8ba13893e203be1095a5cfd5ff871663efc4e8c85a653aadcf350fe1cc",
+            "result_count": 79,
+            "seen_probe_count": 20,
+            "type": "ping"
+          },
+          {
+            "af": 4,
+            "measurement_id": 200375575,
+            "narrow_success_count": 20,
+            "raw_window_sha256": "fb48ce5f842d0b70336a2c229a18aa5436c9a25b6f7c849d43f1d15d3882a292",
+            "result_count": 20,
+            "seen_probe_count": 20,
+            "type": "traceroute"
+          },
+          {
+            "af": 6,
+            "measurement_id": 200375577,
+            "narrow_success_count": 20,
+            "raw_window_sha256": "98ca75d060a77c4c312435b328e16effb2880a0708c057690ad2c4b9a2f5e427",
+            "result_count": 20,
+            "seen_probe_count": 20,
+            "type": "traceroute"
+          },
+          {
+            "af": 4,
+            "measurement_id": 200375578,
+            "narrow_success_count": 20,
+            "raw_window_sha256": "728a7cd90d6b2f8d05ac3d25929c8c0504161b0ffc408f0895966000aa15d785",
+            "result_count": 20,
+            "seen_probe_count": 20,
+            "type": "dns"
+          },
+          {
+            "af": 6,
+            "measurement_id": 200375579,
+            "narrow_success_count": 20,
+            "raw_window_sha256": "6e50371c78e86d65c5b51ebf5553b3ce396eb604cc9e455208bafa282e3c6a62",
+            "result_count": 20,
+            "seen_probe_count": 20,
+            "type": "dns"
+          },
+          {
+            "af": 4,
+            "measurement_id": 200375581,
+            "narrow_success_count": 20,
+            "raw_window_sha256": "def0200a627ef7632de554eb96a0c2e79fc9d7e2e574010d95b404d610c1e305",
+            "result_count": 20,
+            "seen_probe_count": 20,
+            "type": "sslcert"
+          },
+          {
+            "af": 6,
+            "measurement_id": 200375582,
+            "narrow_success_count": 20,
+            "raw_window_sha256": "17894a81882f8b2d0980c04dd0b18337e861a57a8c303b940b7b73820ddae1b6",
+            "result_count": 20,
+            "seen_probe_count": 20,
+            "type": "sslcert"
+          }
+        ],
+        "start_time": "2026-08-13T16:25:00Z",
+        "stop_time": "2026-08-13T17:24:40Z"
+      },
+      "public_key_b64": "Xa+PtG/XhHbP2kaEE89IECxE1FyN4DfSCh7u4c2j5Y0=",
+      "signature_b64": "nsUdTjSOm3ZFkUlhd40JXrrqRt4V6RPGeJP4cSu64jWCnJjtwKzDImxEISTX+m/SOMWm7okt4efH2n94xLKyCg==",
+      "test_fixture_key": true
+    },
+    "summary": {
+      "all_definitions_saw_all_sources": true,
+      "narrow_success_count": 278,
+      "result_count": 279
+    },
+    "witness_capture": {
+      "alg": "Ed25519",
+      "key_role": "witness",
+      "payload": {
+        "independence_boundary": "Logically separate replay witness; same host and same RIPE upstream, not Byzantine independence.",
+        "observed_at": "2026-08-13T17:27:00Z",
+        "schema": "tyche-atlas-witness-statement-v0.1",
+        "source_index_digest": "6d4f3a7319be46f37e7d359da86c1df26ba856ab546bba44cd0a2a29b419b6b1"
+      },
+      "public_key_b64": "ND1LZrWlDREplXkIm8k3lsoOSS85qRWtY0wocdo2pWk=",
+      "signature_b64": "BhPCAhyDoNr+SvOKiEI0rxnJHVVHw6IFNLtiPp4ttNmFQUqKqJUMaH8tKMNUt4ihCVQGUNd8cxKHTEYmmR6uBA==",
+      "test_fixture_key": true
+    }
+  },
+  "manifest": {
+    "algorithm": "sha-256",
+    "components": {
+      "action": "4786d116c92d0b0d0e062bb53529fd841c9aa6845f45efe6ff3c36c501322d79",
+      "claim": "82f3b3a1ffa5d55cf2da0ded37ece5488a4a9f777912bcd72a8058512811f6b0",
+      "effect": "d6e80cfe19e6eb83317f7ebda5d171e72528e30ff54acedd133b9def8e4792a0",
+      "evidence": "816f79505d29054a0a907be8600e31b73b0cfdda6f5c6bb485c8180490cc8bcb",
+      "permit": "0092491d8d51bfe6edc2050833e9fb36beddaac41578553ff57d3fade333c81c"
+    }
+  },
+  "permit": {
+    "alg": "Ed25519",
+    "key_role": "permit-issuer",
+    "payload": {
+      "allowed_execution_hosts": [
+        "zeus1"
+      ],
+      "allowed_regions": [
+        "afrinic",
+        "apnic",
+        "arin",
+        "lacnic",
+        "ripencc"
+      ],
+      "allowed_targets": [
+        "tyche.institute"
+      ],
+      "authorized_semantic_action_digest": "f75f7c9e31bd3d375ccded70af26a1aa64180fe6bca633292bef4bff930218cb",
+      "expires_at": "2026-09-13T23:59:59Z",
+      "issuer": "Tyche Measurement Permit Lab",
+      "maximum_daily_credits": 19520,
+      "maximum_duration_seconds": 2592000,
+      "maximum_evidence_age_seconds": 7200,
+      "maximum_requested_probes": 20,
+      "maximum_total_credits": 585600,
+      "not_before": "2026-08-13T09:00:00Z",
+      "permit_id": "tmp-replay-2026-08-13-001",
+      "purpose": "bounded dual-stack evidence research",
+      "required_claim_boundaries": [
+        "observation-not-global-availability",
+        "integrity-not-truth",
+        "atlas-participation-not-membership"
+      ],
+      "retrospective_replay": true,
+      "schema": "tyche-measurement-permit-v0.1",
+      "subject": "athena-research-agent"
+    },
+    "public_key_b64": "VWyrLtWH6f/Gt3V8uEspLTt9h6e985wXUct8NB+YOrg=",
+    "signature_b64": "+pijgh4wHeN4GgNSPzx1XV9nWZzR4JbqpYkN/19u/i1rPEpY1w0XtvvlI/iPoFNk02mMaMgDLMxpVQYHehUcDA==",
+    "test_fixture_key": true
+  },
+  "schema": "tyche-from-permit-to-packet-bundle-v0.1"
+}
