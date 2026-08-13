@@ -2,6 +2,8 @@
 
 Initial public research release, 13 August 2026.
 
+Archival DOI: <https://doi.org/10.5281/zenodo.21923744>
+
 ## Included evidence
 
 - a matched replay corpus with 21 positive/negative pairs and one clean

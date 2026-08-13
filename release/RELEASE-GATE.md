@@ -17,12 +17,12 @@
   administratively independent.
 - Zenodo metadata is staged in `zenodo-metadata-draft.json`.
 
-## Must be resolved before deposit
+## Final publication gate
 
-1. **DOI action.** Reserve and publish the Zenodo record after the public
-   source workflow passes;
-   add the resulting DOI to the manuscript, CFF/metadata, public Observatory,
-   and artifact manifest.
+Reserved DOI: `10.5281/zenodo.21923744`. Publish the Zenodo record only after
+the public-source workflow, final manifest, archive checksum, and uploaded-file
+checks pass. After publication, update the public Observatory and Research
+index with the live DOI.
 
 ## Resolved for v0.1.0
 

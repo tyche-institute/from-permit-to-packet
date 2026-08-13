@@ -4,6 +4,7 @@ title: "From Permit to Packet: Composing Agent Authority with Public Internet Me
 type: software
 version: 0.1.0
 date-released: 2026-08-13
+doi: 10.5281/zenodo.21923744
 authors:
   - family-names: Sokolov
     given-names: Anton
@@ -31,5 +32,6 @@ preferred-citation:
       given-names: Anton
       orcid: "https://orcid.org/0000-0003-2452-7096"
   year: 2026
+  doi: 10.5281/zenodo.21923744
   publisher:
     name: "Tyche Institute"

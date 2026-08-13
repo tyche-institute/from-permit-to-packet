@@ -483,7 +483,7 @@ def main() -> int:
         path
         for path in ROOT.rglob("*")
         if path.is_file()
-        and path.name != "SHA256SUMS"
+        and path.name not in {"SHA256SUMS", ".zenodo-draft-state.json"}
         and "__pycache__" not in path.parts
         and path.suffix != ".pyc"
     )

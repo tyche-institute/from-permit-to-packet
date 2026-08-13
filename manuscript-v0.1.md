@@ -579,8 +579,8 @@ and verify the file manifest.
 
 The public Observatory is available at
 <https://tyche.institute/lab/from-permit-to-packet/>. The release repository is
-<https://github.com/tyche-institute/from-permit-to-packet>; the archival DOI is
-recorded in the release version of this manuscript. Code is
+<https://github.com/tyche-institute/from-permit-to-packet>; the archival release
+is <https://doi.org/10.5281/zenodo.21923744>. Code is
 licensed under Apache License 2.0; the manuscript, documentation, and public
 data are licensed under CC BY 4.0. Private raw capture and private keys are not
 part of the release.

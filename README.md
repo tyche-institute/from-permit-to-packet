@@ -1,5 +1,7 @@
 # From Permit to Packet v0.1
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21923744.svg)](https://doi.org/10.5281/zenodo.21923744)
+
 An executable research case study of an AI-mediated public Internet
 measurement workflow:
 
@@ -118,13 +120,12 @@ Ed25519 fixture keys are deterministic and explicitly marked
 
 ## Licence and release status
 
-Version 0.1.0 release candidate. Public source:
+Version 0.1.0. DOI: <https://doi.org/10.5281/zenodo.21923744>. Public source:
 <https://github.com/tyche-institute/from-permit-to-packet>. Code is licensed
 under Apache-2.0; the
 manuscript, documentation, and public research data are licensed under CC BY
 4.0. See `LICENSE.md` and `RELEASE-NOTES.md`. The public Observatory is an
-explanatory demonstrator, not a production assurance service. A public GitHub
-release and archival DOI are linked here after their production checks pass.
+explanatory demonstrator, not a production assurance service.
 
 Build the manuscript PDF with:
 
