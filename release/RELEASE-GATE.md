@@ -17,12 +17,16 @@
   administratively independent.
 - Zenodo metadata is staged in `zenodo-metadata-draft.json`.
 
-## Final publication gate
+## Published release
 
-Reserved DOI: `10.5281/zenodo.21923744`. Publish the Zenodo record only after
-the public-source workflow, final manifest, archive checksum, and uploaded-file
-checks pass. After publication, update the public Observatory and Research
-index with the live DOI.
+- Version DOI: <https://doi.org/10.5281/zenodo.21923744>
+- Concept DOI: <https://doi.org/10.5281/zenodo.21923743>
+- GitHub release:
+  <https://github.com/tyche-institute/from-permit-to-packet/releases/tag/v0.1.0>
+- Final public-source workflow: PASS, run `31730924963`.
+- Zenodo uploaded-file MD5 verification: PASS for four files before publish.
+- Deterministic ZIP SHA-256:
+  `846c524f58fb340083f2d5ee8d88b2ef0e6090e44d7dab271406ab524fc1d83d`.
 
 ## Resolved for v0.1.0
 

@@ -1,0 +1,14 @@
+{
+  "conceptdoi": "10.5281/zenodo.21923743",
+  "doi": "10.5281/zenodo.21923744",
+  "files": [
+    "SHA256SUMS",
+    "from-permit-to-packet-v0.1.0.zip",
+    "from-permit-to-packet-manuscript-v0.1.0.pdf",
+    "RELEASE-NOTES.md"
+  ],
+  "html": "https://zenodo.org/records/21923744",
+  "record_id": 21923744,
+  "title": "From Permit to Packet: Composing Agent Authority with Public Internet Measurement Evidence",
+  "version": "0.1.0"
+}

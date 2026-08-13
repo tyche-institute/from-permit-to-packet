@@ -123,16 +123,14 @@ def upload_and_verify(token: str, state: dict) -> dict:
     return checked
 
 
-def publish(token: str, state: dict) -> dict:
-    result = request("POST", f"{API}/deposit/depositions/{state['deposit_id']}/actions/publish", token)
-    public = request("GET", f"{API}/records/{result['id']}")
+def record_output(public: dict) -> dict:
     output = {
         "record_id": public["id"],
         "doi": public["doi"],
         "conceptdoi": public["conceptdoi"],
         "title": public["metadata"]["title"],
         "version": public["metadata"].get("version"),
-        "html": public["links"]["html"],
+        "html": public["links"].get("html") or public["links"]["self_html"],
         "files": [item["key"] for item in public.get("files", [])],
     }
     (ROOT / "release" / "zenodo-record.json").write_text(
@@ -141,14 +139,20 @@ def publish(token: str, state: dict) -> dict:
     return output
 
 
+def publish(token: str, state: dict) -> dict:
+    result = request("POST", f"{API}/deposit/depositions/{state['deposit_id']}/actions/publish", token)
+    return record_output(request("GET", f"{API}/records/{result['id']}"))
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--create-draft", action="store_true")
     parser.add_argument("--upload", action="store_true")
     parser.add_argument("--publish", action="store_true")
+    parser.add_argument("--refresh-record", action="store_true")
     args = parser.parse_args(argv)
-    if not any((args.create_draft, args.upload, args.publish)):
-        parser.error("choose --create-draft, --upload, or --publish")
+    if not any((args.create_draft, args.upload, args.publish, args.refresh_record)):
+        parser.error("choose --create-draft, --upload, --publish, or --refresh-record")
     token = load_token()
     if not token:
         sys.exit("ZENODO_TOKEN not found")
@@ -159,6 +163,9 @@ def main(argv=None) -> int:
         print(json.dumps({"verified_draft": checked["id"], "files": len(checked["files"])}, indent=2))
     if args.publish:
         print(json.dumps(publish(token, state), indent=2, sort_keys=True))
+    if args.refresh_record:
+        public = request("GET", f"{API}/records/{state['deposit_id']}")
+        print(json.dumps(record_output(public), indent=2, sort_keys=True))
     return 0
 
 
